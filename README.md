@@ -7,6 +7,8 @@
 
 >🛑 NOTA: O repositório é constantemente atualizado. Podem haver códigos não funcionando e projetos pessoais inacabados.
 
+<img src="https://img.shields.io/badge/Feito%20com-Java-yellow?style=for-the-badge&logo=Java"/>
+
 <div align="center">   
 <img height="400em" alt="Java logo" src="https://logospng.org/download/java/logo-java-512.png"/>
 </div>
