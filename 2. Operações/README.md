@@ -1,18 +1,30 @@
-<h1 align="center"> Java </h1>
+<p> Sabendo declarar variáveis, podemos partir para o início da programação, através de oerações básicas utilizando tais variáveis aprendidas.
+Uitlizaremos os seguintes sinais para as seguintes operações: </p>
 
-<img align="right" alt="Feito com Java" src="https://img.shields.io/badge/Feito_com-Java-EF3D43?style=for-the-badge&logo=coffeescript&logoColor=EF3D43"/>
+<ul>
+  <li> + para soma </li>
+  <li> - para subtração </li>
+  <li> * para multiplicação </li>
+  <li> / para divisão </li>
+</ul>
 
-<h3> O que é Java? ☕ </h3>
-<p> Java é uma linguagem de programação orientada a objetos e plataforma de computação cuja função é construir aplicações em rede, como jogos e programas. Ou seja, um programador Java consegue projetar softwares que podem ser operados e distribuídos em múltiplas plataformas, como Mac, Windows e Linux sem a necessidade de modificá-los e, inclusive, sem pensar na arquitetura da máquina. </p>
+<hr>
 
-<h3> O que será encontrado ao longo desse repositório? </h3>
-<p> Ao longo desse repositórios serão encontrados meus códigos em Java, com explicações e anotações sobre alguns assuntos sobre o que é utilizado nos códigos, como uma "aula/anotação". </p>
+<p> Agora, vamos supor que temos uma variável "a" com um valor qualquer e uma outra variável "b" com qualquer outro valor. Para realizarmos as operações, criaremos uma variável "c" que tem como valor a soma das variáveis "a" e "b". Podemos somar os valores das variáveis através dos sinais aprendidos anteriormente. Entretanto, vale ressaltar que os tipos de variáveis só podem realizar operações com os mesmos tipos (int com int, double com double...). Observe: </p>
 
->🛑 NOTA: O repositório é constantemente atualizado. Podem haver códigos não funcionando e projetos pessoais inacabados.
+```
+int a = 1;
+int b = 2;
+int c = a+b;
+```
 
-<br>
+<p> Além disso, podemos fazer estas operações com outras variáveis e outros sinais. Observe: </p>
 
-<div align="center">   
-<img height="400em" alt="Java Logo - Laranja" src="https://logospng.org/download/java/logo-java-512.png"/>
-<img height="400em" alt="Java Logo - Vermelha" src="https://www.celsonunes.com.br/wp-content/uploads/2018/05/java-logo.png"/>
-</div>
+```
+double var1 = 12.5;
+double var2 = 3.2;
+double var3 = var1-var2;
+```
+
+> 🏆 Ralize os exercícios, confira o gabarito e vá para a próxima aula.
+<a href="https://github.com/Pedroo-Nietoo/Java/tree/main/3.%20Print%20e%20Println"> Próxima aula >>> </a>
