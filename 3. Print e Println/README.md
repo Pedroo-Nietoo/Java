@@ -16,4 +16,4 @@ System.out.println("Hello World!");
 System.out.print(a);
 ```
 > 🏆 Ralize os exercícios, confira o gabarito e vá para a próxima aula.
-<a href="https://github.com/Pedroo-Nietoo/Java/tree/main/3.%20Print%20e%20Println"> Próxima aula >>> </a>
+<a href="https://github.com/Pedroo-Nietoo/Java/tree/main/4.%20If%20e%20Else"> Próxima aula >>> </a>
