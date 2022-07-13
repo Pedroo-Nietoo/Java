@@ -27,7 +27,7 @@ int var1 = 1;
 System.out.println("Hello World!");
 System.out.print("O número é "+var1);
 ```
-> Resultado no terminal: Hello World!
+> Resultado no terminal: Hello World!<br>
 > Resultado no terminal: O número é 1
 
 <br>
