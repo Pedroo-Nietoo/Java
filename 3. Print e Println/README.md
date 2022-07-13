@@ -15,14 +15,24 @@ int a = 1;
 System.out.println("Hello World!");
 System.out.print(a);
 ```
+> Resultado no terminal: Hello World!
+> Resultado no terminal: 1
+
+<br>
 
 <p> Podemos também adicionar o valor de variaveis junto com os textos, unindo os dois em um só comando. para isso, utilizamos a expressão "+" seguida do nome da variável. Veja: </p>
 
 ```
 int var1 = 1;
 System.out.println("Hello World!");
-System.out.print("O número é"+var1);
+System.out.print("O número é "+var1);
 ```
+> Resultado no terminal: Hello World!
+> Resultado no terminal: O número é 1
+
+<br>
+
+<hr>
 
 > 🏆 Ralize os exercícios, confira o gabarito e vá para a próxima aula.
 <a href="https://github.com/Pedroo-Nietoo/Java/tree/main/4.%20If%20e%20Else"> Próxima aula >>> </a>
