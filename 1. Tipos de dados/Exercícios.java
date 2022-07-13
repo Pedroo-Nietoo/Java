@@ -1,4 +1,4 @@
-public class Exercício {
+public class Exercícioss {
     public static void main(String[] args) {
         //crie uma variável de nome "número" que tenha o valor 12.5.
         
