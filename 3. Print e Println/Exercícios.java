@@ -4,9 +4,9 @@ public class Exercícios {
     int b = 3;
     int c = a*b/3;
     
-    //Faça com que o resultado de "c" apareça no terminal".
+    //Faça com que o resultado de "c" apareça no terminal.
     
     String user = "@Pedroo-Nietoo";
-    //Faça com que a frase "Seu usuário do GitHub é: " apareça unto com o a variável "user".
+    //Faça com que a frase "Seu usuário do GitHub é: " apareça junto com o a variável "user" no terminal.
   }
 }
