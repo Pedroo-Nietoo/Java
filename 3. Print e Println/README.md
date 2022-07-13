@@ -8,7 +8,7 @@ System.out.print();
 System.out.println();
 ```
 
-O comando "System.out.print();" printa na mesma linha, enquanto o System.out.println(); printa  em uma linha diferente. Podemos printar tanto um texto, o colocando entre aspas quanto variáveis, colocando o nome das mesmas dentro dos parênteses. Veja: </p>
+O comando "System.out.print();" printa o que for solicitado e continua na mesma linha, enquanto o System.out.println(); printa o que for solicitado e, após isso, desce para a linha abaixo. Podemos printar tanto um texto, o colocando entre aspas quanto variáveis, colocando o nome das mesmas dentro dos parênteses. Veja: </p>
 
 ```
 int a = 1;
