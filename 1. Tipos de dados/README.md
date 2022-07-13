@@ -43,7 +43,7 @@ String user = "@Pedroo-Nietoo";
 
 <p> Sabendo como declarar (criar) variáveis, é possível dar os primeiros passos na programação em Java! </p>
 
-<hr>
+<br>
 
 > 🏆 Ralize os exercícios, confira o gabarito e vá para a próxima aula.
 <a href="https://github.com/Pedroo-Nietoo/Java/tree/main/2.%20Opera%C3%A7%C3%B5es"> Próxima aula >>> </a>
