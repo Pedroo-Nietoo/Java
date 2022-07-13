@@ -1,18 +1,19 @@
-<h1 align="center"> Java </h1>
+<p> Vimos durante as aulas anteriores que os valores das variáveis apareceram no termianl através de alguns comandos. <br> <br>
+<i> Mas como isso ocorre? </i> <br>
+<i> Quais comandos podems utilizar para realizar isso? </i> <br>
+<p> Por enquanto iremos utilizar apenas dois comandos para printar estes valores na tela. São eles: </p>
 
-<img align="right" alt="Feito com Java" src="https://img.shields.io/badge/Feito_com-Java-EF3D43?style=for-the-badge&logo=coffeescript&logoColor=EF3D43"/>
+```
+System.out.print();
+System.out.println();
+```
 
-<h3> O que é Java? ☕ </h3>
-<p> Java é uma linguagem de programação orientada a objetos e plataforma de computação cuja função é construir aplicações em rede, como jogos e programas. Ou seja, um programador Java consegue projetar softwares que podem ser operados e distribuídos em múltiplas plataformas, como Mac, Windows e Linux sem a necessidade de modificá-los e, inclusive, sem pensar na arquitetura da máquina. </p>
+O comando "System.out.print();" printa na mesma linha, enquanto o System.out.println(); printa  em uma linha diferente. Podemos printar tanto um texto, o colocando entre aspas quanto variáveis, colocando o nome das mesmas dentro dos parênteses. Veja: </p>
 
-<h3> O que será encontrado ao longo desse repositório? </h3>
-<p> Ao longo desse repositórios serão encontrados meus códigos em Java, com explicações e anotações sobre alguns assuntos sobre o que é utilizado nos códigos, como uma "aula/anotação". </p>
-
->🛑 NOTA: O repositório é constantemente atualizado. Podem haver códigos não funcionando e projetos pessoais inacabados.
-
-<br>
-
-<div align="center">   
-<img height="400em" alt="Java Logo - Laranja" src="https://logospng.org/download/java/logo-java-512.png"/>
-<img height="400em" alt="Java Logo - Vermelha" src="https://www.celsonunes.com.br/wp-content/uploads/2018/05/java-logo.png"/>
-</div>
+```
+int a = 1;
+System.out.println("Hello World!");
+System.out.print(a);
+```
+> 🏆 Ralize os exercícios, confira o gabarito e vá para a próxima aula.
+<a href="https://github.com/Pedroo-Nietoo/Java/tree/main/3.%20Print%20e%20Println"> Próxima aula >>> </a>
