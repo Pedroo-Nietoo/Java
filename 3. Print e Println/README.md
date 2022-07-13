@@ -15,8 +15,8 @@ int a = 1;
 System.out.println("Hello World!");
 System.out.print(a);
 ```
-> Resultado no terminal: Hello World!
-> Resultado no terminal: 1
+> 🖥 Resultado no terminal: Hello World! <br>
+> 🖥 Resultado no terminal: 1
 
 <br>
 
@@ -27,12 +27,20 @@ int var1 = 1;
 System.out.println("Hello World!");
 System.out.print("O número é "+var1);
 ```
-> Resultado no terminal: Hello World!<br>
-> Resultado no terminal: O número é 1
+> 🖥 Resultado no terminal: Hello World! <br>
+> 🖥 Resultado no terminal: O número é 1
 
 <br>
 
-<hr>
+<p> Caso queira pôr a variável no meio do texto, basta fechar as aspas, pôr o sinal de "+" antes e após a variável e abrir aspas novamente, continuando assim o seu texto. </p> 
+
+```
+int var1 = 1;
+System.out.print("O número "+var1+" é meu número favorito!");
+```
+> 🖥 Resultado no terminal: O número é 1 meu número favorito!
+
+<br> <hr>
 
 > 🏆 Ralize os exercícios, confira o gabarito e vá para a próxima aula.
 <a href="https://github.com/Pedroo-Nietoo/Java/tree/main/4.%20If%20e%20Else"> Próxima aula >>> </a>
