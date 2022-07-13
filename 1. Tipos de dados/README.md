@@ -1,18 +1,45 @@
-<h1 align="center"> Java </h1>
+<p> Na linguagem java existem alguns tipos de dados que é preciso aprender para poder programar com facilidade, sejam eles números, caracteres ou outros. São eles: </p>
 
-<img align="right" alt="Feito com Java" src="https://img.shields.io/badge/Feito_com-Java-EF3D43?style=for-the-badge&logo=coffeescript&logoColor=EF3D43"/>
+<ul>
+  <li> <strong> int: </strong> indica um número inteiro que vai de -2.147.483.648 a 2.147.483.647 </li>
+  <li> <strong> double: </strong> indica um número não inteiro </li>
+  <li> <strong> byte: </strong> tipo de dado mais baixo do Java. Também serve para números (1 byte possui 8 bits) </li>
+  <li> <strong> char: </strong> indica um caractere </li>
+  <li> <strong> short: </strong> indica um número inteiro que vai de -32.768 a 32.767 </li>
+  <li> <strong> long: </strong>  indica um número inteiro que vai de -9.223.372.036.854.775.808L a 9.223.372.036.854.775.807 </li>
+  <li> <strong> float: </strong> indica um número ponto-flutuante (com partes fracionárias) </li>
+  <li> <strong> boolean: </strong> retorna um valor Verdadeiro ou Falso (true/false) </li>
+  <li> <strong> String: </strong> todos os tipos de dados anteriores. Entretanto, o tipo String não realiza cálculos </li>
+</ul>
 
-<h3> O que é Java? ☕ </h3>
-<p> Java é uma linguagem de programação orientada a objetos e plataforma de computação cuja função é construir aplicações em rede, como jogos e programas. Ou seja, um programador Java consegue projetar softwares que podem ser operados e distribuídos em múltiplas plataformas, como Mac, Windows e Linux sem a necessidade de modificá-los e, inclusive, sem pensar na arquitetura da máquina. </p>
+<hr>
 
-<h3> O que será encontrado ao longo desse repositório? </h3>
-<p> Ao longo desse repositórios serão encontrados meus códigos em Java, com explicações e anotações sobre alguns assuntos sobre o que é utilizado nos códigos, como uma "aula/anotação". </p>
+<p> Utilizaremos esses tipos de dados para criar variáveis onde os valores que quisermos serão armazenados. Veja um exemplo: </p>
 
->🛑 NOTA: O repositório é constantemente atualizado. Podem haver códigos não funcionando e projetos pessoais inacabados.
+```
+int nomeDaVariável = 1;
+```
+
+<p> Criamos uma variável de nome "nomeDaVariável" do tipo "int" que tem como valor o número 1. Podemos fazer a mesma coisa com outros tipos de dados. Veja: </p>
+
+
+```
+double var2 = 0.5;
+boolean var3 = true;
+char letra = "a";
+String user = "@Pedroo-Nietoo";
+```
+
+<p> Pode parecer um pouco confuso no início, então vamos partir para exemplos na prática. </p>
+
+```
+double var2 = 0.5;
+boolean var3 = true;
+char letra = "a";
+String user = "@Pedroo-Nietoo";
+```
 
 <br>
 
-<div align="center">   
-<img height="400em" alt="Java Logo - Laranja" src="https://logospng.org/download/java/logo-java-512.png"/>
-<img height="400em" alt="Java Logo - Vermelha" src="https://www.celsonunes.com.br/wp-content/uploads/2018/05/java-logo.png"/>
-</div>
+<p> Sabendo como declarar (criar) variáveis, é possível dar os primeiros passos na programação em Java! </p>
+<a href="https://github.com/Pedroo-Nietoo/Java/tree/main/2.%20Opera%C3%A7%C3%B5es"> Próxima aula </a>
