@@ -1,7 +1,7 @@
 <p> Vimos durante as aulas anteriores que os valores das variáveis apareceram no termianl através de alguns comandos. <br> <br>
 <i> Mas como isso ocorre? </i> <br>
 <i> Quais comandos podems utilizar para realizar isso? </i> <br>
-<p> Por enquanto iremos utilizar apenas dois comandos para printar estes valores na tela. São eles: </p>
+<p> Por enquanto iremos utilizar apenas dois comandos para fazer com que esses valores sejam colocados no terminal (ao longo das aulas, iremos utilizar a expressão "printar", que significa pôr tais falores na tela/terminal). São eles: </p>
 
 ```
 System.out.print();
