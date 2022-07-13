@@ -1,4 +1,4 @@
-<p> Agora que já sabemos algumas operações básicas, vamos avançar para estruturas condicionais. Essas estruturas farão com que possamos definir condições no funcionamento de um código. São elas o "<i> if </i>" e o "<i> else </i>". </p>
+<p> Agora que já sabemos algumas operações básicas, vamos avançar para estruturas condicionais. Essas estruturas farão com que possamos definir condições no funcionamento de um código. São elas o "<i>if</i>" e o "<i>else</i>". </p>
 
 <p> Suponha que você fez um código para mostrar na na tela uma frase seguindo as seguintes condições: </p>
 
