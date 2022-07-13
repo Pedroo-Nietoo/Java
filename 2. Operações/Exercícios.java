@@ -5,7 +5,7 @@ public class Exercícios {
 
         System.out.println();
 
-        //Crie três variáveis cuja multiplicação resulte em 9.0s. O resultado deve estar em uma quarta variável do tipo "double". Coloque o nome da última variável dentro dos parênteses do comando abaixo.
+        //Crie três variáveis cuja multiplicação resulte em 9.0. O resultado deve estar em uma quarta variável do tipo "double". Coloque o nome da última variável dentro dos parênteses do comando abaixo.
 
         System.out.println();
     }
