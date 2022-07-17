@@ -5,7 +5,7 @@ public class Exercícios{
     
     Se a idade for menor do que 5, printe "Você é uma criança";
     Caso contrário, se a idade for menor do que 17, printe "Você é um adolescente";
-    Caso contrário, se a idade for maior ou igual a 18, printe "Você é maior de idade".
+    Caso contrário, printe "Você é maior de idade".
     */
   }
 }
