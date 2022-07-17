@@ -3,6 +3,8 @@
 
 <p> Suponha que você fez um código para mostrar na na tela uma frase seguindo as seguintes condições: </p>
 
+<br>
+
 <ul>
   <li> Se a idade for menor do que 4, printe "Você é... um bebê!?"; </li>
   <li> Se a idade for menor do que 14, printe "Você é um a criança"; </li>
