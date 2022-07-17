@@ -63,7 +63,7 @@ else{
   <li> Se a idade for menor do que 14, printe "Você não é uma criança; </li>
   <li> Caso contrário, se a idade for menor do que 14, printe "Você não é um adolescente; </li>
   <li> Caso contrário, se a idade for menor do que 18, printe "Você não é um adulto; </li>
-  <li> Caso contrário, se a idade for menor ou igual a que 59, printe "Você não é um idoso; </li>
+  <li> Caso contrário, se a idade for menor ou igual a 59, printe "Você não é um idoso; </li>
   <li> Caso contrário, printe "Você é um idoso". </li>
 </ul>
 
