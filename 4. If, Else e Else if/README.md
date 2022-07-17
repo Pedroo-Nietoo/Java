@@ -28,7 +28,6 @@ else{
   > Quando utilizamos apenas um sinal de igual (=), estamos atribuindo/definindo um valor a ele. Já quando utilizamos dois sinais (==), estamos comparando os valores com algo. No caso do if, estaremos sempre comparando, por isso utilizaremos dois sinais de igual (==).
   2. AÇÃO: As ações que o cdigo irá realizar caso a condição seja realizada.
   
-<br>
 <hr>
 
 <h2> Parte 2 - Exemplos </h2>
@@ -54,7 +53,6 @@ else{
 
 <p> Nesse código, nós apenas transformamos o texto anterior em um "if" e "else". </p>
 
-<br>
 <hr>
 
 <h2> Parte 3 - Else if </h2>
