@@ -43,4 +43,4 @@ System.out.print("O número "+var1+" é meu número favorito!");
 <br> <hr>
 
 > 🏆 Ralize os exercícios, confira o gabarito e vá para a próxima aula.
-<a href="https://github.com/Pedroo-Nietoo/Java/tree/main/4.%20If%20e%20Else"> Próxima aula >>> </a>
+<a href="https://github.com/Pedroo-Nietoo/Java/tree/main/4.%20If%2C%20Else%20e%20Else%20if"> Próxima aula >>> </a>
