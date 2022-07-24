@@ -6,6 +6,8 @@
 <h3> O que será encontrado ao longo desse repositório? </h3>
 <p> Ao longo desse repositórios serão encontrados meus códigos em Java, com explicações e anotações sobre alguns assuntos sobre o que é utilizado nos códigos, como uma "aula/anotação". </p>
 
+<br>
+
 >🛑 NOTA: O repositório é constantemente atualizado. Podem haver códigos não funcionando e projetos pessoais inacabados.
 
 <br>
