@@ -92,4 +92,4 @@ else{
 <p> Assim como no exemplo passado, nós apenas transformamos o texto anterior em um "if", "else if" e "else". </p>
 
 > 🏆 Ralize os exercícios, confira o gabarito e vá para a próxima aula.
-<a href="https://github.com/Pedroo-Nietoo/Java/tree/main/4.%20If%2C%20Else%20e%20Else%20if"> Próxima aula >>> </a>
+<a href="https://github.com/Pedroo-Nietoo/Java/tree/main/5.%20Operadores%20l%C3%B3gicos"> Próxima aula >>> </a>
