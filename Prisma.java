@@ -1,8 +1,6 @@
-package prisma;
-
 import java.util.Scanner;
 
-public class Prisma {
+public class Main {
     public static void main(String[] args) {
         Scanner ent = new Scanner(System.in);
         
@@ -21,23 +19,30 @@ public class Prisma {
         
         switch (escolha) {
             case 1:
+                System.out.println();
                 System.out.println("O volume do prisma é de: "+volumePrisma());
                 break;
             case 2:
+                System.out.println();
                 System.out.println("A altura do prisma é de: "+alturaPrisma());
                 break;
             case 3:
+                System.out.println();
                 System.out.println("A área da base do prisma é de: "+areaBasePrisma());
                 break;
             case 4:
+                System.out.println();
                 System.out.println("A área da base do prisma é de: "+areaBaseTotal());
                 break;
             case 5:
+                System.out.println();
                 System.out.println("O número de faces do Prisma é de: "+numeroFaces());
             case 6:
+                System.out.println();
                 System.out.println("A área da face do prisma é de: "+areaFace());
                 break;
             case 7:
+                System.out.println();
                 System.out.println("A área total do prisma é de: "+areaTotalPrisma());
                 break;
             default: System.err.println("Erro Favor selecionar as opções corretamente.");
