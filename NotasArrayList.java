@@ -1,53 +1,57 @@
-import java.util.*;
-public class Main {
-    public static void main(String[] args) {
-        ArrayList<Double> numeros = new ArrayList<>(); 
-        Scanner ent = new Scanner(System.in); 
-
-    System.out.println("Aviso: Para parar de adicionar digite 'X'.");
-    System.out.println("Digite numeros legais: ");
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.Collections;
+public class Main{
+  public static void main(String[] args){
+    ArrayList<Double> numeros = new ArrayList<>();
+    Scanner input = new Scanner(System.in);
+    
+    System.out.println("Digite suas notas.");
+    System.out.println("Aviso: para parar de digitar, pressione 'X'");
+    System.out.println();
     
     int i = 0;
-    while (ent.hasNextDouble()){              
-        numeros.add(ent.nextDouble());
-        
-        if (i == 'X'){
-           break; 
-        }
-        else{
-            i++;
-        }
-    } 
-    ent.close(); 
-    
-    System.out.println("----------------------------------------");
-    System.out.println("Voce digitou: "+numeros);
-
-    for (double nota : numeros){
-        if( (nota <= 10.0) && (nota >= 0.0) ){
-            if(nota >= 7.0 ){
-                System.out.println("Passou direto;");
-            }
-            else{
-                if(nota >= 5.0 ){
-                    System.out.println("Recuperação;");
-                }
-                else{
-                    System.out.println("Reprovado;");
-                }
-            }
-        }
-        else{
-            System.out.println("Nota inválida...");
-        }
+    while(input.hasNextDouble()){
+        numeros.add(input.nextDouble());
+      if(i == 'X'){
+        break;
+      }
+      else{
+        continue;
+      }
     }
-        System.out.println("A maior nota foi: "+Collections.max(numeros));
-        System.out.println("A menor nota foi: "+Collections.min(numeros));
-        
-        Collections.sort(numeros);
-        System.out.println("Menor para o maior: " +numeros);
-        
-        Collections.reverse(numeros);
-        System.out.println("Maior para o menor: " +numeros); 
-	}
+    
+    input.close();
+    
+    System.out.println();
+    System.out.println("________________________________");
+    System.out.println();
+    
+    System.out.println("Você digitou: "+numeros);
+    
+    for(double nota : numeros){
+      if(nota <= 10.0 && nota >= 0.0){
+        if(nota <=10 && nota >= 8){
+          System.out.println("Conceito A!");
+        }
+        else if(nota <= 7.9 && nota >= 6.0){
+          System.out.println("Conceito B~");
+        }
+        else{
+          System.out.println("Conceito C...");
+        }
+      }
+      else{
+        System.out.println("Favor inserir nota entre 0 e 10.");
+      }
+    }
+    
+    System.out.println("________________________________");
+    System.out.println();
+    
+    System.out.println("A nota máxima foi: "+Collections.max(numeros));
+    System.out.println("A nota mínima foi: "+Collections.min(numeros));
+    Collections.sort(numeros);
+    System.out.println("As notas em ordem crescente são: "+numeros);
+  }
 }
