@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class MédiaAnual{
+public class Main{
     public static void main(String[] args){
         DecimalFormat df = new DecimalFormat("0.00");
         Scanner ent = new Scanner(System.in);
@@ -28,12 +28,12 @@ public class MédiaAnual{
             System.out.println("O aluno foi reprovado com média "+df.format(media));}
     }
     
-    public static double calcularMedia(double nota1, double nota2, double nota3, double nota4){
-        return (nota1+nota2+nota3+nota4)/4;
+    public static double calcularMedia(double a, double b, double c, double d){
+        return (a+b+c+d)/4;
     }
     
     public static boolean aprovado(double media){
-        if(media >= 7){
+        if(media >= 7.0){
             return true;}
             
         else{
