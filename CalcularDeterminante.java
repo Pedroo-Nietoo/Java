@@ -1,3 +1,5 @@
+package calculardeterminante;
+
 import java.util.Scanner;
 
 public class CalcularDeterminante {
@@ -16,7 +18,6 @@ public class CalcularDeterminante {
                     numeros[a][b] = ent.nextInt();
                     }
             }
-            
             
             int diagonalPrincipal = numeros[0][0]*numeros[1][1]*numeros[2][2]+ 
             numeros[0][1]*numeros[1][2]*numeros[2][0]+
@@ -44,7 +45,7 @@ public class CalcularDeterminante {
     }
     public static void alterar(String resposta){
         Scanner ent = new Scanner(System.in);
-        
+        System.out.println();
         if(resposta.equals("Y")){
                 System.out.print("Qual número deseja alterar?: ");
                 int numeroQueroMudar = ent.nextInt();
@@ -58,6 +59,7 @@ public class CalcularDeterminante {
                     }
                 }
             }
+            System.out.println();
             print(numeros);
         }  
     }
