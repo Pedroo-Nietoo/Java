@@ -71,11 +71,11 @@ public class CalcularDeterminante {
             System.out.println("O determinante é: "+calcularDeterminante());
         }  
     }
-    public static void print(int[][] tectec){
+    public static void print(int[][] numeros){
         String matriz = "Matriz:\n";
         for(int linha = 0; linha < 3; linha++){
                 for(int coluna = 0; coluna < 3; coluna++){
-                    matriz += tectec[linha][coluna]+" ";
+                    matriz += numeros[linha][coluna]+" ";
                 }
                 matriz += "\n";
             }
