@@ -1,8 +1,6 @@
-package calculardeterminante;
-
 import java.util.Scanner;
 
-public class CalcularDeterminante {
+public class Main {
     
     static int[][] numeros = new int[3][3];
     
@@ -53,7 +51,7 @@ public class CalcularDeterminante {
     public static void alterar(String resposta){
         Scanner ent = new Scanner(System.in);
         System.out.println();
-        if(resposta.equals("Y")){
+        if(resposta.equals("Y") || resposta.equals("y"a)){
                 System.out.print("Qual número deseja alterar?: ");
                 int numeroQueroMudar = ent.nextInt();
                 System.out.print("Por qual número deseja alterar?: ");
