@@ -1,14 +1,10 @@
 import java.util.Scanner;
-
 public class Main {
-    
     static int[][] numeros = new int[3][3];
     static int contador = 0;
-    
     public static void main(String[] args) {
         Scanner ent = new Scanner(System.in);
-     
-            numeros = new int[3][3];
+        numeros = new int[3][3];
             
             solicitarValores();
                         
@@ -97,8 +93,8 @@ public class Main {
                 System.out.print("Qual número deseja alterar?: ");
                 int numeroQueroMudar = ent.nextInt();
                 System.out.print("Por qual número deseja alterar?: ");
-                int numeroVouMudarPor = ent.nextInt();               
-                
+                int numeroVouMudarPor = ent.nextInt();
+            
             for(int a = 0; a < 3; a++){
                 for(int b = 0; b < 3; b++){
                     if(numeros[a][b] == numeroQueroMudar){
@@ -109,8 +105,7 @@ public class Main {
             System.out.println();
             print(numeros);
             System.out.println("O determinante é: "+calcularDeterminante());
-        }
-        else{
+        }else{
             contador++;
         }
     }
