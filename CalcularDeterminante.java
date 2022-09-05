@@ -33,18 +33,34 @@ public class Main {
             }
     }
     public static int calcularDeterminante(){
-        /*int principal = 0;
+        int diagonalP = 
+        numeros[0][0]*numeros[1][1]*numeros[2][2]+ 
+        numeros[0][1]*numeros[1][2]*numeros[2][0]+
+        numeros[0][2]*numeros[1][0]*numeros[2][1];
+            
+        int diagonalS = 
+        numeros[0][2]*numeros[1][1]*numeros[2][0]+
+        numeros[0][0]*numeros[1][2]*numeros[2][1]+
+        numeros[0][1]*numeros[1][0]*numeros[2][2];
+            
+        int determinante = diagonalP - diagonalS;
+            if(determinante < 0){
+                return determinante = determinante * -1;
+            }else{
+                return determinante;
+            }
+        /*Mesmo método, mas com 'for':
+        int principal = 0;
         int secundaria = 0;
         int coluna = 0;
-        for (int i = 0; i < numeros[0].length; i++) {
+        for(int i = 0; i < numeros[0].length; i++){
             int diagonal = 1;
-            for (int linha = 0; linha < numeros.length; linha++) {
-                if (coluna == numeros[0].length) {
+            for(int linha = 0; linha < numeros.length; linha++){
+                if(coluna == numeros[0].length){
                     coluna = 0;
-                } else if (coluna < 0) {
+                }else if(coluna < 0){
                     coluna = numeros[0].length - 1;
                 }
-                //System.out.println("linha:" + linha + "  coluna:" + coluna);
                 diagonal *= numeros[linha][coluna];
                 coluna++;
             }
@@ -52,46 +68,27 @@ public class Main {
             coluna -= 1;
         }
         coluna = numeros[0].length - 1;
-        for (int i = 0; i < numeros[0].length; i++) {
+        for(int i = 0; i < numeros[0].length; i++){
             int diagonal = 1;
-            for (int linha = 0; linha < numeros.length; linha++) {
-                if (coluna == numeros[0].length) {
+            
+            for(int linha = 0; linha < numeros.length; linha++){
+                if(coluna == numeros[0].length){
                     coluna = 0;
-                } else if (coluna < 0) {
+                }else if(coluna < 0){
                     coluna = numeros[0].length - 1;
                 }
-                //System.out.println("linha:" + linha + "  coluna:" + coluna);
                 diagonal *= numeros[linha][coluna];
                 coluna--;
             }
             secundaria += diagonal;
             coluna += 1;
         }
-        System.out.println("Diagonal principal com for: " + principal);
-        System.out.println("Diagonal secundária com for: " + secundaria);
         int determinante = principal - secundaria;
         if(determinante < 0){
-            determinante *=-1;
+            determinante *= -1;
         }
-        System.out.println("Determinante: " + determinante);
+        return determinante;
     }*/
-        int diagonalPrincipal = numeros[0][0]*numeros[1][1]*numeros[2][2]+ 
-            numeros[0][1]*numeros[1][2]*numeros[2][0]+
-            numeros[0][2]*numeros[1][0]*numeros[2][1];
-            
-            int diagonalSecundaria = numeros[0][2]*numeros[1][1]*numeros[2][0]+
-            numeros[0][0]*numeros[1][2]*numeros[2][1]+
-            numeros[0][1]*numeros[1][0]*numeros[2][2];
-            
-            int determinante = diagonalPrincipal-diagonalSecundaria;
-            
-            if(determinante < 0){
-                return determinante = determinante * -1;
-            }
-            else{
-                return determinante;
-            }
-        
     }
     public static void alterar(String resposta){
         Scanner ent = new Scanner(System.in);
