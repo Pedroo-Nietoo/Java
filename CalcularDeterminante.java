@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     
     static int[][] numeros = new int[3][3];
+    static int contador = 0;
     
     public static void main(String[] args) {
         Scanner ent = new Scanner(System.in);
@@ -15,11 +16,12 @@ public class Main {
             print(numeros);
             System.out.println("O determinante é: "+calcularDeterminante());
             
+            while(contador == 0){
             System.out.println();
             System.out.print("Deseja alterar algum número? [Y][N]\nR: ");
             String resposta = ent.next();
             alterar(resposta);
-            
+            }
     }
     public static void solicitarValores(){
         Scanner ent = new Scanner(System.in);
@@ -65,7 +67,6 @@ public class Main {
             secundaria += diagonal;
             coluna += 1;
         }
-
         System.out.println("Diagonal principal com for: " + principal);
         System.out.println("Diagonal secundária com for: " + secundaria);
         int determinante = principal - secundaria;
@@ -95,7 +96,7 @@ public class Main {
     public static void alterar(String resposta){
         Scanner ent = new Scanner(System.in);
         System.out.println();
-        if(resposta.equals("Y") || resposta.equals("y"a)){
+        if(resposta.equals("Y") || resposta.equals("y")){
                 System.out.print("Qual número deseja alterar?: ");
                 int numeroQueroMudar = ent.nextInt();
                 System.out.print("Por qual número deseja alterar?: ");
@@ -111,7 +112,10 @@ public class Main {
             System.out.println();
             print(numeros);
             System.out.println("O determinante é: "+calcularDeterminante());
-        }  
+        }
+        else{
+            contador++;
+        }
     }
     public static void print(int[][] numeros){
         String matriz = "Matriz:\n";
